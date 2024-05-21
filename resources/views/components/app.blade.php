@@ -13,7 +13,7 @@
         }
 
         ul, li {
-            list-style: nonew;
+            list-style: none;
         }
     </style>
 </head>
