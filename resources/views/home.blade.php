@@ -3,6 +3,9 @@
 @section('title', 'Home')
 
 @section('content')
-    <h2>Benvenuto nella Home Page</h2>
-    <p>Contenuto della home page...</p>
+<div class="container mt-5 mb-5 text-center">
+    <h1 class="text-warning">Home</h1>
+    <p class="text-danger">Contenuto della Home Page...</p>
+</div>
+    
 @endsection

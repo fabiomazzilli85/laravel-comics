@@ -3,6 +3,8 @@
 @section('title', 'Comics')
 
 @section('content')
-    <h2>Comics</h2>
-    <p>Contenuto della pagina dei comics...</p>
+    <div class="container mt-5 mb-5">
+        <h1>Comics</h1>
+        <p>Contenuto della pagina Comics...</p>
+    </div>
 @endsection
