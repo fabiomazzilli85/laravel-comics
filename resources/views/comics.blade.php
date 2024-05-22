@@ -15,3 +15,9 @@
     </div>
 @endforeach
 @endsection
+
+@section('styles')
+<style>
+  @include('../scss/comics')
+</style>
+@endsection
