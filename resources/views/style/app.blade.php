@@ -15,6 +15,12 @@
         ul, li {
             list-style: none;
         }
+
+        img {
+            height: 400px;
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
     </style>
 </head>
 
