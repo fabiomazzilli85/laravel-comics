@@ -3,19 +3,15 @@
 @section('title', 'Comics')
 
 @section('content')
-@foreach ($comics as $comic)
 <div class="container">
-    <div class="flex-img">
-        <img src="{{ $comic['thumb'] }}" alt="">
-        <div>
-            <ul>
-                <li class="text-primary"><strong>Titolo</strong>: {{ $comic['title'] }}</li>
-            </ul>
-            <ul>
-                <li class="text-success"><strong>Serie</strong>: {{ $comic['series'] }}</li>
-            </ul>
+    @foreach ($comics as $comic)
+        <div class="card mb-5" style="width: 18rem">
+            <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center">{{ $comic['title'] }}</h5>
+                <p class="card-text text-center"><strong>Serie</strong>: {{ $comic['series'] }}</p>
+            </div>
         </div>
-    </div>
+    @endforeach
 </div>
-@endforeach
 @endsection
