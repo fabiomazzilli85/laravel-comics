@@ -20,6 +20,12 @@
             height: 400px;
             aspect-ratio: 1;
             object-fit: cover;
+            margin: 50px 0;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
