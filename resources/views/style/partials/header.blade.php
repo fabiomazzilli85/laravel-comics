@@ -2,12 +2,8 @@
     <div class="container">
         <nav>
             <ul class="flex-nav nav-bg">
-                <li>
-                    <a class="link-item" href="http://localhost:8001/">Home</a>
-                </li>
-                <li>
-                    <a class="link-item" href="http://localhost:8001/comics">Comics</a>
-                </li>
+                <li><a class="navbar-item" href="{{ route('home') }}">Home</a></li>
+                <li><a class="navbar-item" href="{{ route('comics') }}">Comics</a></li>
             </ul>
         </nav>
     </div>
