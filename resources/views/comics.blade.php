@@ -2,8 +2,14 @@
 
 @section('title', 'Comics')
 
+@section('content')
 @foreach ($comics as $comic)
     <img src="{{ $comic['thumb'] }}" alt="">
-    <li>{{ $comic['title'] }}</li>
-    <li>{{ $comic['series'] }}</li>
+    <ul>
+        <li>{{ $comic['title'] }}</li>
+    </ul>
+    <ul>
+        <li>{{ $comic['series'] }}</li>
+    </ul>
 @endforeach
+@endsection
