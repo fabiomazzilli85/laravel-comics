@@ -26,18 +26,6 @@
         ul, li {
             list-style: none;
         }
-
-        img {
-            height: 400px;
-            aspect-ratio: 1;
-            object-fit: cover;
-            margin: 50px 0;
-        }
-
-        .flex-img {
-            display: flex;
-            align-items: center;
-        }
     </style>
 </head>
 
