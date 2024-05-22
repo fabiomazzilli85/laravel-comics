@@ -12,6 +12,17 @@
             gap: 30px;
         }
 
+        .nav-bg {
+            background-color: #EE4E4E;
+            color: white;
+            padding: 20px;
+        }
+
+        .link-item {
+            color: white;
+            text-decoration: none;
+        } 
+
         ul, li {
             list-style: none;
         }
@@ -23,7 +34,7 @@
             margin: 50px 0;
         }
 
-        .flex {
+        .flex-img {
             display: flex;
             align-items: center;
         }
