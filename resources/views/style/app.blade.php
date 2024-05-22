@@ -26,6 +26,11 @@
         ul, li {
             list-style: none;
         }
+
+        .navbar-item {
+            color: white;
+            text-decoration: none;
+        }
     </style>
 </head>
 
