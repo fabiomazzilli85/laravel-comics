@@ -2,9 +2,8 @@
 
 @section('title', 'Comics')
 
-@section('content')
-    <div class="container mt-5 mb-5 text-center">
-        <h1 class="text-warning">Comics</h1>
-        <p class="text-danger">Contenuto della pagina Comics...</p>
-    </div>
-@endsection
+@foreach ($comics as $comic)
+    <img src="{{ $comic['thumb'] }}" alt="">
+    <li>{{ $comic['title'] }}</li>
+    <li>{{ $comic['series'] }}</li>
+@endforeach
