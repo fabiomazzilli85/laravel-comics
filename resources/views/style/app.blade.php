@@ -19,13 +19,13 @@
 </head>
 
 <body>
-    @include('components.partials.header')
+    @include('style.partials.header')
 
     <main>
         @yield('content')
     </main>
 
-    @include('components.partials.footer')
+    @include('style.partials.footer')
 </body>
 
 </html>

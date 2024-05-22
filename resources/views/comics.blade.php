@@ -1,4 +1,4 @@
-@extends('components.app')
+@extends('style.app')
 
 @section('title', 'Comics')
 
