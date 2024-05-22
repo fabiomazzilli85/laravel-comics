@@ -4,14 +4,18 @@
 
 @section('content')
 @foreach ($comics as $comic)
-    <div>
-        <img src="{{ $comic['thumb'] }}" alt="">
-        <ul>
-            <li><strong>Titolo</strong>: {{ $comic['title'] }}</li>
-        </ul>
-        <ul>
-            <li><strong>Serie</strong>: {{ $comic['series'] }}</li>
-        </ul>
+    <div class="container">
+        <div class="flex">
+            <img src="{{ $comic['thumb'] }}" alt="">
+            <div>
+                <ul>
+                    <li class="text-primary"><strong>Titolo</strong>: {{ $comic['title'] }}</li>
+                </ul>
+                <ul>
+                    <li class="text-success"><strong>Serie</strong>: {{ $comic['series'] }}</li>
+                </ul>
+            </div>
+        </div>
     </div>
 @endforeach
 @endsection
